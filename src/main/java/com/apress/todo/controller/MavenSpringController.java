@@ -29,6 +29,7 @@ public class MavenSpringController {
         modelAndView.setViewName("index");
         return modelAndView;
     }
+
     @RequestMapping(value = "/MavenSprings", method = { RequestMethod.GET },
             produces = {
                     MediaType.APPLICATION_JSON_UTF8_VALUE,
